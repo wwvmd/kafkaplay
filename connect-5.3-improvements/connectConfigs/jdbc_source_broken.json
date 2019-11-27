@@ -1,0 +1,21 @@
+{ 
+   "name":"JDBC-Source-Connector-Broken",
+   "config":{ 
+      "connector.class":"io.confluent.connect.jdbc.JdbcSourceConnector",
+      "connection.url":"jdbc:postgresql://postgres/testdb?user=postgres&password=postgres",
+      "table.whitelist":"years",
+      "mode":"incrementing",
+      "incrementing.column.name":"id",
+      "table.types":"TABLE",
+	  "errors.tolerance": "all",
+	  "errors.log.enable":"true",
+      "topic.prefix":"shakespeare2_",
+	  "producer.override.ssl.keystore.password": "password1",
+	"producer.override.security.protocol": "SSL",
+    "producer.override.ssl.truststore.location": "/etc/kafka/secrets/client/client.truststore.jks",
+    "producer.override.ssl.truststore.password": "password1", 
+    "producer.override.ssl.keystore.location": "/etc/kafka/secrets/client/client.keystore.jks",
+    "producer.override.ssl.keystore.password": "password1x",
+    "producer.override.ssl.key.password": "password1x"
+   }
+}
