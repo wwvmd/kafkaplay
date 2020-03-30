@@ -1,0 +1,17 @@
+{
+  "name": "replicator",
+  "config":{
+	  "connector.class": "io.confluent.connect.replicator.ReplicatorSourceConnector",
+	  "producer.override.request.timeout.ms": 20000,
+	  "producer.override.bootstrap.servers": "kafka-dc2:39092",
+	  "producer.override.retry.backoff.ms": 500,
+	  "key.converter": "io.confluent.connect.replicator.util.ByteArrayConverter",
+	  "value.converter": "io.confluent.connect.replicator.util.ByteArrayConverter",
+	  "topic.whitelist": "test-topic",
+	  "src.kafka.bootstrap.servers": "kafka:29092",
+	  "dest.kafka.bootstrap.servers": "kafka-dc2:39092",
+	  "confluent.topic": "_confluent-command",
+	  "confluent.topic.replication.factor": "1"
+	  
+  }
+}

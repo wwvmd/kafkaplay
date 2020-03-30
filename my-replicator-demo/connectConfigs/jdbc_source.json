@@ -1,0 +1,14 @@
+{ 
+   "name":"JDBC-Source-Connector2",
+   "config":{ 
+      "connector.class":"io.confluent.connect.jdbc.JdbcSourceConnector",
+      "connection.url":"jdbc:postgresql://postgres/testdb?user=postgres&password=postgres",
+      "table.whitelist":"years",
+      "mode":"incrementing",
+      "incrementing.column.name":"id",
+      "table.types":"TABLE",
+	  "errors.tolerance": "all",
+	  "errors.log.enable":"true",
+      "topic.prefix":"shakespeare_"
+   }
+}

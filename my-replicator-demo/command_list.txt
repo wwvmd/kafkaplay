@@ -1,0 +1,1000 @@
+ 1042  docker ps
+ 1043  docker exec -it {  bash
+ 1044  }
+ 1045  docker ps 
+ 1046  docker exec 43594c4a2aa6 -it
+ 1047  docker exec 43594c4a2aa6 -it bash
+ 1048  docker exec -it 43594c4a2aa6  bash
+ 1049  ls
+ 1050  docker ps
+ 1051  docker exec -it 43594c4a2aa6 bash
+ 1052  pwd
+ 1053  history
+ 1054  cd /c/dev/projects/confluentdemos/demo-scene/connect-5.3-improvements/
+ 1055  docker-compose up
+ 1056  docker-ps
+ 1057  docker ps -a
+ 1058  docker stop kafka-connect-01 schema-registry 43594c4a2aa6_kafka
+ 1059  docker ps -a
+ 1060  docker stop   a271fd2ade5e b6914c285c84
+ 1061  docker ps -a
+ 1062  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1063  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1064  docker-compose up
+ 1065  docker-compose start zookeeper
+ 1066  docker-compose start kafka
+ 1067  docker-compose stop kafka
+ 1068  docker-compose stop zookeeper
+ 1069  docker ps -a
+ 1070  docker-compose up
+ 1071  confluent
+ 1072  confluent secret
+ 1073  docker ps -a
+ 1074  docker inspect 46dd4077c679
+ 1075  history
+ 1076  cd /c/dev/projects/confluentdemos/demo-scene/connect-5.3-improvements/
+ 1077  ls
+ 1078  docker-compose up
+ 1079  docker-compose stop
+ 1080  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1081  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1082  docker-compose start
+ 1083  docker ps -a
+ 1084  docker exec -it 43594c4a2aa6 bash
+ 1085  docker ps -a
+ 1086  docker exec -it 36468c90b160 bash 
+ 1087  ls
+ 1088  history
+ 1089  cd /c/dev/projects/confluentdemos/demo-scene/connect-5.3-improvements/
+ 1090  ls
+ 1091  docker-compose up
+ 1092  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1093  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1094  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1095  docker-compose up
+ 1096  docker ps -a
+ 1097  docker exec -it 36468c90b160 bash 
+ 1098  ls
+ 1099  cd $WORK
+ 1100  cd $PROJECTS
+ 1101  ls
+ 1102  mkdir my-kafka-connect
+ 1103  cd my-kafka-connect/
+ 1104  ls
+ 1105  ls -al
+ 1106  mkdir include
+ 1107  cd include/
+ 1108  ls
+ 1109  ls 0l
+ 1110  ls
+ 1111  pwd
+ 1112  npp Dockerfile
+ 1113  mv Dockerfile ../
+ 1114  cd ..
+ 1115  mkdir -p include/etc/confluent/docker
+ 1116  ls
+ 1117  npp Dockerfile 
+ 1118  npp include/etc/confluent/docker/configure
+ 1119  docker build -t foo/zookeeper:latest .
+ 1120  docker run 
+ 1121  docker run -e ZOOKEEPER_SERVER_CONFIG_URL=http://foo.com/zk1/server.properties -e ZOOKEEPER_SERVER_ID_URL=http://foo.com/zk1/myid -e ZOOKEEPER_LOG_CONFIG_URL=http://foo.com/zk1/log4j.properties foo/zookeeper:latest
+ 1122  docker build -t foo/zookeeper:latest .
+ 1123  docker run -e ZOOKEEPER_SERVER_CONFIG_URL=http://foo.com/zk1/server.properties -e ZOOKEEPER_SERVER_ID_URL=http://foo.com/zk1/myid -e ZOOKEEPER_LOG_CONFIG_URL=http://foo.com/zk1/log4j.properties foo/zookeeper:latest
+ 1124  docker ps -a
+ 1125  docker ps
+ 1126  docker run -it --rm foo/zookeeper bash
+ 1127  ls
+ 1128  cd
+ 1129  ls
+ 1130  cd ../
+ 1131  pwd
+ 1132  cp /mnt/d/
+ 1133  ls
+ 1134  cd /mnt/
+ 1135  ls
+ 1136  cd
+ 1137  cd ..
+ 1138  ls
+ 1139  cd goelas/
+ 1140  tar -tvf /mnt/c/temp/goelas.tar
+ 1141  pwd
+ 1142  cd ..
+ 1143  tar /mnt/c/temp/goelas.tar .
+ 1144  tar -xf /mnt/c/temp/goelas.tar .
+ 1145  tar -xf /mnt/c/temp/goelas.tar 
+ 1146  cd goelas/
+ 1147  ls
+ 1148  docker
+ 1149  sudo apt-get update -y
+ 1150  sudo apt-get install -y     apt-transport-https     ca-certificates     curl     software-properties-common
+ 1151  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ 1152  sudo apt-key fingerprint 0EBFCD88
+ 1153  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+ 1154     $(lsb_release -cs) \
+ 1155     stable"
+ 1156  sudo apt-get update -y
+ 1157  sudo apt-get install -y docker-ce
+ 1158  sudo usermod -aG docker $USER
+ 1159  sudo apt-get install -y python python-pip
+ 1160  echo $PATH 
+ 1161  vim ~/.profile 
+ 1162  source .profile 
+ 1163  echo $PATH 
+ 1164  vim ~/.profile 
+ 1165  cat ~/.bash_user 
+ 1166  vim ~/.profile 
+ 1167  ls
+ 1168  ls -al
+ 1169  pwd
+ 1170  echo $PATH 
+ 1171  echo $DOCKER_HOST 
+ 1172  docker info
+ 1173  docker-compose --version
+ 1174  sudo vim /etc/wsl.conf
+ 1175  ls
+ 1176  cd
+ 1177  ls
+ 1178  cd /c
+ 1179  ls
+ 1180  cd ../
+ 1181  cd mnt/
+ 1182  ls
+ 1183  cd c/
+ 1184  ls
+ 1185  cd ..
+ 1186  ls
+ 1187  ls -al
+ 1188  rm c
+ 1189  sudo rm -rf c
+ 1190  man ln
+ 1191  sudo ln -s /c c
+ 1192  ls -l
+ 1193  cd c/
+ 1194  ls
+ 1195  echo $PATH 
+ 1196  java
+ 1197  java -version
+ 1198  cd $PROJECTS
+ 1199  ls
+ 1200  cdpwd
+ 1201  pwd
+ 1202  cd confluent/
+ 1203  ls
+ 1204  cd confluentdemos/
+ 1205  ls
+ 1206  cd demo-scene/
+ 1207  ls
+ 1208  cd
+ 1209  cd $PROJECTS
+ 1210  ls
+ 1211  ls -lrt
+ 1212  cd /c/dev/confluent/cp-docker-images/examples/
+ 1213  ls
+ 1214  cd kafka-cluster-ssl/
+ 1215  ls
+ 1216  docker-compose up
+ 1217  vim docker-compose.yml
+ 1218  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1219  docker-compose up
+ 1220  telnet localhost 9092
+ 1221  clost
+ 1222  cd $PROJECTS
+ 1223  ls
+ 1224  cd confluentdemos/
+ 1225  ls
+ 1226  cd demo-scene/connect-5.3-improvements/
+ 1227  ls
+ 1228  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1229  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1230  docker-compose up
+ 1231  docker-compose down
+ 1232  npp
+ 1233  docker ps
+ 1234  docker logs -f control-center
+ 1235  pwd
+ 1236  cd /
+ 1237  cd /c/dev/projects/confluentdemos/
+ 1238  ls
+ 1239  cd demo-scene/
+ 1240  ls
+ 1241  cd connect-5.3-improvements/
+ 1242  ls
+ 1243  cd ../connect-deepdive/
+ 1244  ls
+ 1245  cat docker-compose.yml 
+ 1246  ls
+ 1247  cd ../
+ 1248  cd connect-5.3-improvements/
+ 1249  ls
+ 1250  vim docker-compose.yml 
+ 1251  cd ..
+ 1252  find . | xargs grep control-center
+ 1253  npp  ./twitter-streams/docker-compose.yml
+ 1254  np  ./twitter-streams/docker-compose.yml
+ 1255  alias npp="c/Program Files (x86)/Notepad++/notepad++.exe"
+ 1256  npp 
+ 1257  alias npp="c/Program Files \(x86\)/Notepad++/notepad++.exe"
+ 1258  npp 
+ 1259  source ~/.bash
+ 1260  source ~/.bashe
+ 1261  source ~/.bashrc 
+ 1262  npp
+ 1263  npp ./twitter-streams/docker-compose.yml
+ 1264  cd ../../
+ 1265  find . -name docker-compose.yml
+ 1266  cd kafkaplay/
+ 1267  ls
+ 1268  cd connect-5.3-improvements/
+ 1269  npp docker-compose.yml 
+ 1270  s
+ 1271  ls
+ 1272  chmod a+x setup.sh 
+ 1273  cat setup.sh 
+ 1274  ./setup.sh 
+ 1275  docker-compose up
+ 1276  ls
+ 1277  vim docker-compose.yml 
+ 1278  npp docker-compose.yml 
+ 1279  docker-compose up
+ 1280  source setup.sh 
+ 1281  docker-compose up
+ 1282  docker ps -a
+ 1283  docker exec -it control-center bash
+ 1284  grep monitoring *
+ 1285  ls
+ 1286  docker exec -it control-center bash
+ 1287  docker ps -a
+ 1288  docker exec -it kafka-connect-01 bash
+ 1289  docker exec -it control-center bash
+ 1290  docker exec -it control-center cat       CONTROL_CENTER_STREAMS_SSL_ENDPOINT_IDENTIFICATION_ALGORITHM: "HTTPS"
+ 1291  docker exec -it control-center cat /etc/confluent-control-center/control-center.properties
+ 1292  docker logs
+ 1293  docker ps -a
+ 1294  docker logs 38a71451102b
+ 1295  docker logs control-center
+ 1296  docker logs 38a71451102b
+ 1297  docker logs control-center
+ 1298  docker 
+ 1299  docker logs control-center
+ 1300  docker exec -it control-center cat /etc/confluent-control-center/control-center.properties
+ 1301  docker logs control-center
+ 1302  docker exec -it control-center bash
+ 1303  docker exec -it control-center bash 
+ 1304  env
+ 1305  docker exec -it control-center env
+ 1306  docker logs control-center
+ 1307  cd $CONFLUENT_HOME
+ 1308  ls
+ 1309  cd bin/
+ 1310  ls
+ 1311  cat control-center-start 
+ 1312  cat control-center-run-class 
+ 1313  npp control-center-run-class 
+ 1314  docker exec -it control-center env
+ 1315  docker exec -it control-center bash
+ 1316  docker ps -a
+ 1317  docker exec -it kafka-connect-01 bash
+ 1318  docker exec -it control-center bash
+ 1319  cd /c/dev/projects/ssl-server/src/main/resources/
+ 1320  curl --insecure --cert /c/dev/projects/ssl-server/src/main/resources/ssl-server.pem:pemchangeit 
+ 1321  curl --insecure --cert /c/dev/projects/ssl-server/src/main/resources/ssl-server.pem:pemchangeit https://localhost:8443/connectors
+ 1322  cd /c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1323  la
+ 1324  curl --insecure --cert ./server.pem:pemchangeit https://localhost:8443/connectors
+ 1325  cp  /c/dev/projects/ssl-server/src/main/resources/ssl-server.pem .
+ 1326  curl --insecure --cert ./ssl-server.pem:pemchangeit https://localhost:8443/connectors
+ 1327  rm server.pem 
+ 1328  ls
+ 1329  pwd
+ 1330  cd  $PROJECTS
+ 1331  ls
+ 1332  pwd
+ 1333  history
+ 1334  ls
+ 1335  cd kafkaplay/
+ 1336  ls
+ 1337  cd connect-5.3-improvements/
+ 1338  ls
+ 1339  source setup.sh 
+ 1340  pwd
+ 1341  ls
+ 1342  source setup.sh 
+ 1343  docker-compose up
+ 1344  /etc/kafka/secrets/kafka.broker1.keystore.jks
+ 1345  cd $KAFKA_SSL_SECRETS_DIR
+ 1346  ls
+ 1347  ls -lrt
+ 1348  cat broker1_sslkey_creds
+ 1349  keytool 
+ 1350  ls *.jks
+ 1351  keytool --list kafka.broker1.keystore.jks 
+ 1352  keytool --list -keystore kafka.broker1.keystore.jks 
+ 1353  history
+ 1354  cd $PROJECTS/
+ 1355  cd kafkaplay/
+ 1356  ls
+ 1357  cd connect-5.3-improvements/
+ 1358  ls
+ 1359  docker-compose up
+ 1360  docker ps -a
+ 1361  docker stop 7629dd772741
+ 1362  docker ps -a
+ 1363  docker rm control-center
+ 1364  docker-compose up
+ 1365  docker ps -a
+ 1366  docker down
+ 1367  docker-compose down
+ 1368  docker ps -a
+ 1369  docker stop control-center
+ 1370  docker-compose up
+ 1371  docker down
+ 1372  docker-compose down
+ 1373  docker ps -a
+ 1374  docker ps -a
+ 1375  docker exec -it control-center bash
+ 1376  docker logs kafka-connect-01
+ 1377  docker logs -f kafka-connect-01
+ 1378  docker logs control-center
+ 1379  docker logs control-center > foo.l
+ 1380  npp foo.log 
+ 1381  docker exec -it control-center bash
+ 1382  cd /c/dev/projects/ssl-server/src/main/resources/
+ 1383  ls
+ 1384  mkdir san
+ 1385  cd san/
+ 1386  keytool -genkey -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2048 -validity 700 -keypass changeit -storepass changeit -ext SAN=dns:kafka-connect-01.connect-53-improvements_default,dns:kafka-connect-01 -keystore ssl-server2.jks
+ 1387  keytool -genkey -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2048 -validity 700 -keypass changeit -storepass changeit  -keystore ssl-server2.jks
+ 1388  rm ssl-server2.jks 
+ 1389  keytool -genkey -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2048 -validity 700 -keypass changeit -storepass changeit -ext SAN=dns:kafka-connect-01.connect-53-improvements_default -keystore ssl-server2.jks
+ 1390  keytool -genkey -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2048 -validity 700 -keypass changeit -storepass changeit -ext SAN=dns:kafka-connect-01 -keystore ssl-server2.jks
+ 1391  ls -lrt
+ 1392  keytool -importkeystore -srckeystore ssl-server2.jks -destkeystore ssl-server2.p12 -srcalias selfsigned_localhost_sslserver-srcstoretype jks -deststoretype pkcs12
+ 1393  keytool -importkeystore -srckeystore ssl-server2.jks -destkeystore ssl-server2.p12 -srcalias selfsigned_localhost_sslserver -srcstoretype jks -deststoretype pkcs12
+ 1394  ls
+ 1395  ls -lrt
+ 1396  openssl pkcs12 -in ssl-server2.p12 -out ssl-server2.p12
+ 1397  openssl pkcs12 -in ssl-server2.p12 -nodes -nocerts -out ssl-server2.key
+ 1398  openssl 
+ 1399  openssl -version
+ 1400  openssl help
+ 1401  able for Windows. – harrymc Jul 2 '19 at 10:31 
+ 1402  openssl help
+ 1403  openssl pkcs12 -in ssl-server2.p12 -nodes -nocerts -out ssl-server2.key
+ 1404  cd ..
+ 1405  openssl pkcs12 -in ssl-server.p12 -nodes -nocerts -out ssl-server1.key
+ 1406  cd san/
+ 1407  ls
+ 1408  cat ssl-server2.key 
+ 1409  rm ssl-server2.key 
+ 1410  openssl pkcs12 -in ssl-server2.p12 -nodes -nocerts -out ssl-server2.key
+ 1411  rm *
+ 1412  keytool -genkey -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2048 -validity 700 -keypass changeit -storepass changeit -ext SAN=dns:kafka-connect-01 -keystore ssl-server2.jks
+ 1413  keytool -importkeystore -srckeystore ssl-server2.jks -destkeystore ssl-server2.p12 -deststoretype pkcs12
+ 1414  openssl pkcs12 -in ssl-server2.p12 -nodes -nocerts -out ssl-server2.key
+ 1415  ls -lrt
+ 1416  cat ssl-server2.
+ 1417  cat ssl-server2.key 
+ 1418  cd ..
+ 1419  ls
+ 1420  ls -lrt
+ 1421  cd san/
+ 1422  openssl pkcs12 -in ssl-server2.p12 -nocerts -out ssl-server2.cert
+ 1423  openssl pkcs12 -in ssl-server2.p12 -nokeys -out ssl-server2.cert
+ 1424  openssl x509 -noout -subject -in ssl-server2.cert 
+ 1425  ls -lrt
+ 1426  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1427  cd $CONNECT_SSL_SECRETS_DIR
+ 1428  ls
+ 1429  cp /c/dev/projects/ssl-server/src/main/resources/san/* .
+ 1430  ls -lrt
+ 1431  cd
+ 1432  docker logs control-center 
+ 1433  docker logs control-center > foo.log
+ 1434  npp foo.log 
+ 1435  history
+ 1436  cd /c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1437  ls
+ 1438  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1439  cd $WORK
+ 1440  ls
+ 1441  cd $PROJECTS
+ 1442  ls
+ 1443  git clone https://github.com/confluentinc/cp-demo
+ 1444  cd cp-demo/
+ 1445  git status
+ 1446  docker-compose up
+ 1447  npp docker-compose.yml 
+ 1448  ls
+ 1449  cd scripts/
+ 1450  ls
+ 1451  cat start.sh 
+ 1452  cd ..
+ 1453  ./scripts/start.sh 
+ 1454  sudo apt install jq
+ 1455  ./scripts/start.sh 
+ 1456  docker-compose up
+ 1457  docker ps -a
+ 1458  pwd
+ 1459  cd
+ 1460  cd /c/dev/HDP_3.0.1_docker-deploy-scripts_18120587fc7fb\ \(1\)/
+ 1461  ls
+ 1462  sh docker-deploy-hdp30.sh 
+ 1463  cd
+ 1464  cd /c/dev/HDP_3.0.1_docker-deploy-scripts_18120587fc7fb/
+ 1465  sh docker-deploy-hdp30.sh 
+ 1466  docker ps
+ 1467  ls
+ 1468  cat docker-deploy-hdp30.sh 
+ 1469  uname
+ 1470  npp docker-deploy-hdp30.sh 
+ 1471  sh docker-deploy-hdp30.sh 
+ 1472  cat sandbox/p
+ 1473  docker ps
+ 1474  docker stop 5fd5f7869938
+ 1475  netstat -aon | findstr 50095
+ 1476  netstat -aon | grep 50095
+ 1477  netsh int ipv4 show excludedportrange protocol=tcp
+ 1478  cd /c/dev/HDP_3.0.1_docker-deploy-scripts_18120587fc7fb/
+ 1479  ls
+ 1480  cd sandbox/
+ 1481  ls
+ 1482  cd proxy/
+ 1483  ls
+ 1484  vim proxy-deploy.sh 
+ 1485  cd ../../
+ 1486  ls
+ 1487  vim docker-deploy-hdp30.sh 
+ 1488  sh docker-deploy-hdp30.sh 
+ 1489  docker rm 5fd5f7869938d4a121aa0cca1d152d08b1cb3f23107b4393112a81f8c16c5d75
+ 1490  vim sandbox/proxy/proxy-deploy.sh 
+ 1491  sh docker-deploy-hdp30.sh 
+ 1492  docker ps 
+ 1493  docker stop sandbox-hdp
+ 1494  docker rm b16fab4b78e7
+ 1495  docker stop sandbox-hdp
+ 1496  vim sandbox/proxy/proxy-deploy.sh 
+ 1497  docker stop sandbox-hdp
+ 1498  sh docker-deploy-hdp30.sh 
+ 1499  npp sandbox/proxy/proxy-deploy.sh 
+ 1500  sh docker-deploy-hdp30.sh 
+ 1501  vim assets/generate-proxy-deploy-script.sh 
+ 1502  sh docker-deploy-hdp30.sh 
+ 1503  docker rm f7979a6022461bc99a2db8022a624d4ca682afe59838f0b543bfce0965d9f2da
+ 1504  docker stop f7979a6022461bc99a2db8022a624d4ca682afe59838f0b543bfce0965d9f2da
+ 1505  docker ps -a
+ 1506  docker stop d05001d0a6af
+ 1507  docker rm *
+ 1508  ls
+ 1509  docker ps
+ 1510  docker rm 9076f19a2710 64728b717c47 fc161c7c81f1 bdf65cd7bb38 6586c471dcf0d d82ef3dd2427 b3c1e3ec867b b3c1e3ec867b
+ 1511  docker ps
+ 1512  docker stop all
+ 1513  docker stop
+ 1514  docker stop --hel
+ 1515  docker stop 9076f19a2710 64728b717c47 fc161c7c81f1 bdf65cd7bb38 6586c471dcf0d d82ef3dd2427 b3c1e3ec867b b3c1e3ec867b
+ 1516  docker ps
+ 1517  docker stop 6586c471dcf0
+ 1518  docker stop 994ef6dbc573
+ 1519  docker ps
+ 1520  docker ps -a
+ 1521  docker rm f7979a602246 054701879cb2
+ 1522  docker ps -a
+ 1523  docker ps
+ 1524  docker exec bash sandbox-hdp 
+ 1525  docker exec -it sandbox-hdp bash
+ 1526  docker stop sandbox-hdp
+ 1527  docker stop sandbox-proxy
+ 1528  cd 
+ 1529  cd /c/dev/projects/
+ 1530  ls
+ 1531  git clone https://github.com/big-data-europe/docker-hadoop.git
+ 1532  cdd.d docker-hadoop/
+ 1533  ls
+ 1534  cd docker-hadoop/
+ 1535  ls
+ 1536  diff docker-compose-v3.yml docker-compose.yml 
+ 1537  ls -lrt
+ 1538  docker-compose up -d
+ 1539  docker ps 
+ 1540  telnet localhost 8088
+ 1541  docker-compose down
+ 1542  vim docker-compose.yml 
+ 1543  docker-compose up -d
+ 1544  docker ps 
+ 1545  docker-compose down
+ 1546  cd /c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client
+ 1547  kafka-consumer-perf-test 
+ 1548  kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one --messages 6000 -show-detailed-stats --group foo1
+ 1549  kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one --messages 60000 -show-detailed-stats --group foo2
+ 1550  kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one --messages 60000 -show-detailed-stats --group foo3
+ 1551  kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one --show-detailed-stats --group foo3
+ 1552  kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one --show-detailed-stats --group foo3 --messages 100000
+ 1553  kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one --show-detailed-stats --group foo3 --messages 60000
+ 1554  kafka-consumer-perf-test 
+ 1555  which kafka-consumer-perf-test 
+ 1556  $CONFLUENT_HOME/bin/kafka-consumer-perf-test 
+ 1557  kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one --print-metrics --group foo3 --messages 60000
+ 1558  kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one --print-metrics --show-detailed-stats --group foo3 --messages 60000 
+ 1559  cat client-ssl.properties 
+ 1560  cd
+ 1561  cd /c/dev/projects/
+ 1562  ls
+ 1563  cd kafkaplay/connect-5.3-improvements/
+ 1564  ls
+ 1565  cd connectConfigs/
+ 1566  ls
+ 1567  npp replicator.json
+ 1568  history
+ 1569  cd /c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/
+ 1570  ls
+ 1571  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1572  ls
+ 1573  cd
+ 1574  cd /c/dev/projects/
+ 1575  find . -name docker-compose.yml 
+ 1576  cd confluentdemos/demo-scene/connect-5.3-improvements/
+ 1577  ls
+ 1578  ls -lrt
+ 1579  cd
+ 1580  cd /dev/
+ 1581  ls
+ 1582  cd /c/dev/
+ 1583  ls
+ 1584  find . -name docker-compose.yml 
+ 1585  history
+ 1586  find . -name docker-compose.yml 
+ 1587  cd projects/kafkaplay/connect-5.3-improvements/
+ 1588  ls
+ 1589  ls -lrt
+ 1590  npp docker-compose.yml 
+ 1591  docker-compose up
+ 1592  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1593  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1594  docker-compose up
+ 1595  docker ps -a
+ 1596  docker rm zookeeper
+ 1597  docker-compose up
+ 1598  docker stop 9076f19a27108758ad23e660b3811398d37853e4d6e5683e6babfc48cdbf9312
+ 1599  docker rm zookeeper
+ 1600  docker ps -a
+ 1601  docker rm 51978dd70516 f17e419af347 c598ee462c4b 994ef6dbc573 b3c1e3ec867b c3633b2f2d5f c3633b2f2d5f 6586c471dcf0 bdf65cd7bb38 fc161c7c81f1 41660cf1c8d2 64728b717c47 2f7a91ccdd61 c1124d7d7d74 c4bef157a74c e66dd49a4455 d6e1a0161b15
+ 1602  docker ps -a
+ 1603  docker-compose down
+ 1604  docker rm 51978dd70516 f17e419af347 c598ee462c4b 994ef6dbc573 b3c1e3ec867b c3633b2f2d5f c3633b2f2d5f 6586c471dcf0 bdf65cd7bb38 fc161c7c81f1 41660cf1c8d2 64728b717c47 2f7a91ccdd61 c1124d7d7d74 c4bef157a74c e66dd49a4455 d6e1a0161b15
+ 1605  docker ps -a
+ 1606  docker stop docker.elastic.co/kibana/kibana:5.5.2 confluentinc/cp-ksql-server:5.4.0 confluentinc/cp-server-connect:5.4.0 cnfldemos/cp-demo-kstreams:0.0.5 confluentinc/cp-kafka-rest:5.4.0 confluentinc/cp-schema-registry:5.4.0 confluentinc/cp-enterprise-control-center:5.4.0 
+ 1607  docker ps -a
+ 1608  docker stop  kibana ksql-server connect streams-demo restproxy schemaregistry control-center
+ 1609  docker ps -a
+ 1610  docker rm 51978dd70516 f17e419af347 c598ee462c4b 994ef6dbc573 b3c1e3ec867b c3633b2f2d5f c3633b2f2d5f 6586c471dcf0 bdf65cd7bb38 fc161c7c81f1 41660cf1c8d2 64728b717c47 2f7a91ccdd61 c1124d7d7d74 c4bef157a74c e66dd49a4455 d6e1a0161b15
+ 1611  docker ps -a
+ 1612  docker rm d82ef3dd2427
+ 1613  docker ps -a
+ 1614  docker-compose up
+ 1615  docker ps -a
+ 1616  docker-compose up
+ 1617  docker-compose down
+ 1618  docker ps -a
+ 1619  docker stop 4ce21c73fae0
+ 1620  docker ps -a
+ 1621  docker-compose down
+ 1622  docker-compose up
+ 1623  docker ps -a
+ 1624  docker-compose down
+ 1625  docker ps -a
+ 1626  docker rm 4ce21c73fae0
+ 1627  docker ps -a
+ 1628  docker-compose up
+ 1629  docker logs zookeeper_dc2
+ 1630  docker-compose up
+ 1631  docker-compose u
+ 1632  docker-compose up
+ 1633  docker ps -a
+ 1634  docker exec -it kafka bash
+ 1635  $CONFLUENT_HOME/bin/kafka-topics --create --zookeeper localhost:2181 --topic shakespeare2_years --replication-factor 1 --partitions 1
+ 1636  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic shakespeare2_years --replication-factor 1 --partitions 1
+ 1637  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1638  cd $CONNECT_SSL_SECRETS_DIR
+ 1639  ls
+ 1640  cat client-ssl.properties 
+ 1641  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic shakespeare3_years --replication-factor 1 --partitions 1
+ 1642  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1643  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic shakespeare*
+ 1644  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic shakespeare2_years
+ 1645  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic shakespeare3_years
+ 1646  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1647  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic perftest_one --replication-factor 1 --partitions 1
+ 1648  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic perftest_one
+ 1649  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic perftest_one --replication-factor 1 --partitions 1
+ 1650  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic perftest_one
+ 1651  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic perftest-one
+ 1652  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic perftest-one --replication-factor 1 --partitions 1
+ 1653  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1654  $CONFLUENT_HOME/bin/kafka-producer-perf-test 
+ 1655  kafka-consumer-perf-test 
+ 1656  kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one
+ 1657  $CONFLUENT_HOME/kafka-consumer-perf-test --broker-list localhost:9092 --consumer.config client-ssl.properties --topic perftest-one --messages 6000
+ 1658  history
+ 1659  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1660  $CONFLUENT_HOME/bin/kafka-producer-perf-test --topic  perftest-one  --num-records 60000 --record-size 100 --throughput 1000 --producer-props bootstrap.servers=localhost:9092 --producer-config client-ssl.properties
+ 1661  $CONFLUENT_HOME/bin/kafka-producer-perf-test --topic  perftest-one  --num-records 60000 --record-size 100 --throughput 1000 --producer-props bootstrap.servers=localhost:9092 --producer.config client-ssl.properties
+ 1662  $CONFLUENT_HOME/bin/kafka-producer-perf-test 
+ 1663  $CONFLUENT_HOME/bin/kafka-producer-perf-test --topic  perftest-one  --num-records 60000 --record-size 100 --throughput 1000 --producer-props bootstrap.servers=localhost:9092 --producer.config client-ssl.properties --print-metrics
+ 1664  $CONFLUENT_HOME/bin/kafka-producer-perf-test --topic  perftest-one  --num-records 60000 --record-size 100 --throughput 1000 --producer-props bootstrap.servers=localhost:9092 --producer.config client-ssl.properties --print-metrics --show-detailed-stats
+ 1665  $CONFLUENT_HOME/bin/kafka-producer-perf-test 
+ 1666  $CONFLUENT_HOME/bin/kafka-producer-perf-test --topic  perftest-one  --num-records 60000 --record-size 100 --throughput 1000 --producer-props bootstrap.servers=localhost:9092 --producer.config client-ssl.properties --print-metrics
+ 1667  $CONFLUENT_HOME/bin/kafka-configs 
+ 1668  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181
+ 1669  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181 --entity-type brokers
+ 1670  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181 --describe
+ 1671  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181 --describe --entity-type brokers
+ 1672  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181 --describe --entity-type brokers --entity-type broker.id
+ 1673  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181 --describe --entity-type brokers --entity-name broker.id
+ 1674  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181 --describe --entity-type brokers --entity-name min.insync.replica
+ 1675  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181 --describe --entity-type brokersx --entity-name min.insync.replica
+ 1676  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181 --describe --entity-type brokers --entity-name min.insync.replica
+ 1677  $CONFLUENT_HOME/bin/kafka-configs --zookeeper localhost:2181 --describe --entity-type brokers --entity-name 1
+ 1678  $CONFLUENT_HOME/bin/zookeeper-shell 
+ 1679  $CONFLUENT_HOME/bin/zookeeper-shell localhost:2181 
+ 1680  $CONFLUENT_HOME/bin/zookeeper-shell localhost:2181 get broker
+ 1681  $CONFLUENT_HOME/bin/zookeeper-shell localhost:2181 get /broker
+ 1682  $CONFLUENT_HOME/bin/zookeeper-shell localhost:2181 get /broker/id
+ 1683  $CONFLUENT_HOME/bin/zookeeper-shell localhost:2181 get /brokers/ids
+ 1684  $CONFLUENT_HOME/bin/zookeeper-shell localhost:2181 ls /brokers/ids
+ 1685  $CONFLUENT_HOME/bin/zookeeper-shell localhost:2181 ls /brokers/ids/1
+ 1686  $CONFLUENT_HOME/bin/zookeeper-shell localhost:2181 get /brokers/ids/1
+ 1687  $CONFLUENT_HOME/bin/zookeeper-shell localhost:3181 get /brokers/ids/1
+ 1688  $CONFLUENT_HOME/bin/zookeeper-shell localhost:2181 ls /brokers/ids
+ 1689  docker logs kafka-connect-01
+ 1690  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1691  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors/plugins
+ 1692  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors-plugins
+ 1693  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connector-plugins
+ 1694  kafka-topics --create --topic test-topic --replication-factor 1 --partitions 1 --zookeeper localhost:2181
+ 1695  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1696  ls
+ 1697  curl --insecure --cert /c/dev/projects/ssl-server/src/main/resources/ssl-server.pem:pemchangeit  -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json  https://localhost:8443/connectors
+ 1698  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connector-plugins
+ 1699  curl --insecure --cert ssl-server2.cert --key ssl-server2.key  -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json  https://localhost:8443/connectors
+ 1700  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1701  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1702  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092 --command-config client-ssl.properties
+ 1703  docker logs kafka-connect-01
+ 1704  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1705  docker ps -a
+ 1706  pwd
+ 1707  cd /c/dev/projects/kafkaplay/
+ 1708  cd connect-5.3-improvements/
+ 1709  docker-compose down
+ 1710  docker-compose up
+ 1711  docker-compose down
+ 1712  source setup.sh 
+ 1713  docker-compose down
+ 1714  docker ps -a
+ 1715  docker-compose up
+ 1716  history
+ 1717  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1718  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1719  cd $KAFKA_SSL_SECRETS_DIR
+ 1720  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1721  ls
+ 1722  cd client/
+ 1723  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1724  cd ../
+ 1725  ls
+ 1726  cd ../
+ 1727  ls
+ 1728  cd client/
+ 1729  s
+ 1730  ls
+ 1731  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1732  docker image list
+ 1733  docker container rm a5077718c01f
+ 1734  docker image list
+ 1735  docker container ls -a
+ 1736  docker rmi a5077718c01f
+ 1737  docker container ls -a
+ 1738  docker image list
+ 1739  history
+ 1740  cd cd $KAFKA_SSL_SECRETS_DIR
+ 1741  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1742  cd $KAFKA_SSL_SECRETS_DIR
+ 1743  cd client/
+ 1744  ls
+ 1745  cd ../
+ 1746  ls
+ 1747  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1748  pwd
+ 1749  ls
+ 1750  cd client/
+ 1751  ls
+ 1752  cd /c/dev/projects/kafkaplay/connect-5.3-improvements/
+ 1753  l;s
+ 1754  cd client/
+ 1755  ls
+ 1756  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1757  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1758  cd $CONNECT_SSL_SECRETS_DIR
+ 1759  ls
+ 1760  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1761  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1762  ls -lrt
+ 1763  docker ps -a
+ 1764  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092 --command-config client-ssl.properties
+ 1765  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1766  $CONFLUENT_HOME/bin/kafka-topics --create --topic test-topic --replication-factor 1 --partitions 1 --zookeeper localhost:2181
+ 1767  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1768  curl --insecure --cert ssl-server2.cert --key ssl-server2.key  -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json  https://localhost:8443/connectors
+ 1769  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1770  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092 --command-config client-ssl.properties
+ 1771  docker logs kafka-connect-01
+ 1772  cd /c/dev/projects/kafkaplay/connect-5.3-improvements/
+ 1773  export KAFKA_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/secrets/
+ 1774  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1775  docker-compose up
+ 1776  curl -X DELETE http://localhost:8083/connectors/replicator
+ 1777  export CONNECT_SSL_SECRETS_DIR=/c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client/
+ 1778  cd $CONNECT_SSL_SECRETS_DIR/
+ 1779  ls
+ 1780  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  http://localhost:8443/connectors/replicator
+ 1781  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  https://localhost:8443/connectors/replicator
+ 1782  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1783  ls
+ 1784  cd /c/dev/projects/kafkaplay/
+ 1785  ls
+ 1786  cd connect-5.3-improvements/
+ 1787  source setup.sh 
+ 1788  clear
+ 1789  ls
+ 1790  docker-compose up
+ 1791  docker ps -a
+ 1792  docker logs kafka_dc2 
+ 1793  docker logs -f kafka_dc2 
+ 1794  ls
+ 1795  cd /c/dev/projects/kafkaplay/connect-5.3-improvements/
+ 1796  source setup.sh 
+ 1797  cd $WORK
+ 1798  ls
+ 1799  cd $KAFKA_SSL_SECRETS_DIR
+ 1800  ls
+ 1801  cat broker1_keystore_creds 
+ 1802  cd ../
+ 1803  cd $CONNECT_SSL_SECRETS_DIR
+ 1804  ls
+ 1805  curl --insecure --cert ssl-server2.cert --key ssl-server2.key  -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json  https://localhost:8443/connectors
+ 1806  docker ps -a
+ 1807  docker logs kafka-connect-01
+ 1808  docker logs -f kafka-connect-01
+ 1809  curl --insecure --cert ssl-server2.cert --key ssl-server2.key  -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json  https://localhost:8443/connectors
+ 1810  docker logs -f kafka-connect-01
+ 1811  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  https://localhost:8443/connectors/replicator
+ 1812  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1813  curl --insecure --cert ssl-server2.cert --key ssl-server2.key  -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json  https://localhost:8443/connectors
+ 1814  docker logs -f kafka-connect-01
+ 1815  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092 --command-config client-ssl.properties
+ 1816  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1817  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  https://localhost:8443/connectors/replicator2
+ 1818  curl --insecure --cert ssl-server2.cert --key ssl-server2.key  -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json  https://localhost:8443/connectors
+ 1819  docker logs -f kafka-connect-01
+ 1820  cd /c/dev/projects/kafkaplay/connect-5.3-improvements
+ 1821  source setup.sh 
+ 1822  cd $CONNECT_SSL_SECRETS_DIR
+ 1823  ls
+ 1824  docker logs kafka-connect-01 
+ 1825  docker logs
+ 1826  docker ps -a
+ 1827  docker stop kafka-connect-01
+ 1828  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic perftest-one
+ 1829  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties 
+ 1830  histor
+ 1831  y
+ 1832  history
+ 1833  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1834  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic _connect-configs
+ 1835  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic _connect-offsets
+ 1836  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --command-config client-ssl.properties --topic _connect-status
+ 1837  history
+ 1838  docker logs -f kafka-connect-01 
+ 1839  services:
+ 1840  cd /c/dev/yes
+ 1841  cd /c/dev/projects/kafkaplay/connect-5.3-improvements/
+ 1842  source setup.sh 
+ 1843  npp docker-compose.yml
+ 1844  docker-compose up
+ 1845  docker-compose down
+ 1846  docker-compose up
+ 1847  docker-compose down
+ 1848  docker-compose up
+ 1849  docker-compose down
+ 1850  docker-compose up
+ 1851  cd ..
+ 1852  ls
+ 1853  git clone https://github.com/confluentinc/demo-scene.git
+ 1854  ls
+ 1855  cd demo-scene/connect-cluster/
+ 1856  npp docker-compose.yml 
+ 1857  docker-compose up
+ 1858  cd ../../connect-5.3-improvements/
+ 1859  docker-compose down
+ 1860  cd $PROJECTS/
+ 1861  cd kafkaplay/connect-5.3-improvements/
+ 1862  source setup.sh 
+ 1863  ls
+ 1864  cd connectConfigs/
+ 1865  ls
+ 1866  curl --insecure --cert ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1867  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key ssl-server2.key https://localhost:8443/connectors
+ 1868  ls
+ 1869  cd ..
+ 1870  ls
+ 1871  cd secrets2/
+ 1872  ls
+ 1873  cd client/
+ 1874  ls
+ 1875  cd $CONNECT_SSL_SECRETS_DIR
+ 1876  ls
+ 1877  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key https://localhost:8443/connectors
+ 1878  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  https://localhost:8443/connectors/replicator2
+ 1879  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  https://localhost:8443/connectors/replicator3
+ 1880  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key https://localhost:8443/connectors
+ 1881  confluent-hub
+ 1882  confluent-hub help
+ 1883  confluent-hub help install
+ 1884  confluent-hub help uninstall
+ 1885  confluent-hub help
+ 1886  confluent-hub help install
+ 1887  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key https://localhost:8443/connectors
+ 1888  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -X POST -H "Content-Type: application/json"
+ 1889  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key /c/dev/confluent/cp-docker-images/examples/kafka-cluster-ssl/client//ssl-server2.key -X POST -H "Content-Type: application/json" https://localhost:8443/connectors
+ 1890  history
+ 1891  curl --insecure $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.
+ 1892  curl --insecure $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -XPOST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.
+ 1893  curl --insecure $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -XPOST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json 
+ 1894  curl --insecure $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -XPOST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json https://localhost:8443/connectors
+ 1895  history
+ 1896  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key https://localhost:8443/connectors
+ 1897  curl --insecure $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json https://localhost:8443/connectors
+ 1898  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key https://localhost:8443/connectors
+ 1899  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json https://localhost:8443/connectors
+ 1900  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1901  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092 --command-config client-ssl.properties
+ 1902  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key https://localhost:8443/connectors
+ 1903  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json https://localhost:8443/connectors
+ 1904  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key https://localhost:8443/connectors
+ 1905  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092 --command-config client-ssl.properties
+ 1906  docker ps -a
+ 1907  docker exec -it bash kafka_dc2
+ 1908  docker exec -it kafka_dc2 bash
+ 1909  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json https://localhost:8443/connectors
+ 1910  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092 --command-config client-ssl.properties
+ 1911  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1912  $CONFLUENT_HOME/bin/kafka-topics --create --topic _confluent_command --replication-factor 1 --partitions 1 --zookeeper localhost:3181
+ 1913  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  https://localhost:8443/connectors/replicator3
+ 1914  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json https://localhost:8443/connectors
+ 1915  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092 --command-config client-ssl.properties
+ 1916  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:39092 --command-config client-ssl.properties
+ 1917  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:39092 1-command-config client-ssl.properties
+ 1918  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092 1-command-config client-ssl.properties
+ 1919  $CONFLUENT_HOME/bin/kafka-topics --list --zookeeper localhost:3181
+ 1920  $CONFLUENT_HOME/bin/kafka-topics --create --topic _confluent-command --replication-factor 1 --partitions 1 --zookeeper localhost:3181
+ 1921  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  https://localhost:8443/connectors/replicator3
+ 1922  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  https://localhost:8443/connectors/replicator5
+ 1923  curl -X DELETE --insecure --cert ssl-server2.cert --key ssl-server2.key  https://localhost:8443/connectors/replicator4
+ 1924  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key https://localhost:8443/connectors
+ 1925  curl --insecure --cert $CONNECT_SSL_SECRETS_DIR/ssl-server2.cert --key $CONNECT_SSL_SECRETS_DIR/ssl-server2.key -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json https://localhost:8443/connectors
+ 1926  $CONFLUENT_HOME/bin/kafka-topics --list --zookeeper localhost:3181
+ 1927  $CONFLUENT_HOME/bin/kafka-topics --list --bootsrap-url localhost:19092
+ 1928  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-url localhost:19092
+ 1929  $CONFLUENT_HOME/bin/kafka-topics
+ 1930  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+ 1931  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 1932  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 1933  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 1934  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json https://localhost:8083/connectors
+ 1935  curl https://localhost:8083/connectors
+ 1936  curl http://localhost:8083/connectors
+ 1937  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json https:/localhost:8083/connectors
+ 1938  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+ 1939  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:19092 --topic _confluent-command --partitions 1 --replication-factor 1
+ 1940  curl -X DELETE http://localhost:8083/connectors/replicator
+ 1941  curl http://localhost:8083/connectors
+ 1942  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+ 1943  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 1944  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+ 1945  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 1946  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:19092 --topic _confluent-command --partitions 1 --replication-factor 1
+ 1947  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 1948  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+ 1949  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 1950  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+ 1951  curl -X DELETE http://localhost:8083/connectors/replicator
+ 1952  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 1953  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+ 1954  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 1955  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+ 1956  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+ 1957  $CONFLUENT_HOME/bin/kafka-console-producer --bootstrap-server localhost:9092 --topic test-topic
+ 1958  $CONFLUENT_HOME/bin/kafka-console-producer --broker-list localhost:9092 --topic test-topic
+ 1959  curl -X DELETE http://localhost:8083/connectors/replicator
+ 1960  curl http://localhost:8083/connectors
+ 1961  docker status
+ 1962  docker logs
+ 1963  docker statys
+ 1964  history
+ 1965  curl http://localhost:8083/connectors
+ 1966  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 1967  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+ 1968  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 1969  curl http://localhost:8083/connectors
+ 1970  $CONFLUENT_HOME/bin/kafka-console-producer --bootstrap-server localhost:9092 --topic test-topic
+ 1971  $CONFLUENT_HOME/bin/kafka-console-producer --broker-list localhost:9092 --topic test-topic
+ 1972  curl http://localhost:8083/connectors
+ 1973  $CONFLUENT_HOME/bin/kafka-console-consumer 
+ 1974  $CONFLUENT_HOME/bin/kafka-console-consumer --bootstrap-server localhost:19092 --from-beginning
+ 1975  $CONFLUENT_HOME/bin/kafka-console-consumer --bootstrap-server localhost:19092 --from-beginning --topic test-topic
+ 1976  $CONFLUENT_HOME/bin/kafka-console-producer --broker-list localhost:9092 --topic test-topic
+ 1977  $CONFLUENT_HOME/bin/kafka-console-producer --broker-list localhost:19092 --topic test-topic
+ 1978  $CONFLUENT_HOME/bin/kafka-console-consumer --bootstrap-server localhost:9092 --from-beginning --topic test-topic
+ 1979  hi
+ 1980  h
+ 1981  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 1982  curl http://localhost:8083/connectors
+ 1983  docker logs kafka-connect-01 
+ 1984  docker logs -f kafka-connect-01 
+ 1985  $CONFLUENT_HOME/bin/kafka-console-consumer --broker-list localhost:19092 --topic test-topic
+ 1986  $CONFLUENT_HOME/bin/kafka-console-consumer --bootstrap-server localhost:19092 --topic test-topic
+ 1987  docker logs -f kafka-connect-01 
+ 1988  $CONFLUENT_HOME/bin/kafka-console-consumer --bootstrap-server localhost:19092 --topic test-topic
+ 1989  $CONFLUENT_HOME/bin/kafka-console-consumer --bootstrap-server localhost:9092 --topic test-topic
+ 1990  $CONFLUENT_HOME/bin/kafka-console-consumer --bootstrap-server localhost:19092 --topic test-topic
+ 1991  $CONFLUENT_HOME/bin/kafka-console-consumer --bootstrap-server localhost:9092 --topic test-topic
+ 1992  docker logs -f kafka-connect-01 
+ 1993  history
+ 1994  curl https://localhost:8083/connectors
+ 1995  curl http://localhost:8083/connectors
+ 1996  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 1997  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --topic test-topic
+ 1998  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 1999  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+ 2000  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 2001  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+ 2002  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 2003  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+ 2004  curl -X DELETE http://localhost:8083/connectors/replicator
+ 2005  curl http://localhost:8083/connectors
+ 2006  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --topic test-topic
+ 2007  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 2008  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 2009  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+ 2010  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:19092 --topic test-topic
+ 2011  $CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:19092 --topic _confluent-command
+ 2012  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+ 2013  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 2014  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+ 2015  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 2016  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+ 2017  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 2018  curl http://localhost:8083/connectors
+ 2019  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+ 2020  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+ 2021  curl http://localhost:8083/connectors
+ 2022  $CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+ 2023  curl http://localhost:8083/connectors
+ 2024  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+ 2025  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+ 2026  $CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+ 2027  curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+ 2028  pwd
+ 2029  history
+ 2030  cd /c/dev/projects/kafkaplay
+ 2031  ls
+ 2032  cd my-replicator-demo/
+ 2033  ls
+ 2034  mv ../docker-compose.yml .
+ 2035  ls
+ 2036  cat docker-compose.yml 
+ 2037  ls
+ 2038  pwd
+ 2039  history
+ 2040  history | npp
+ 2041  history > command_list.txt

@@ -1,0 +1,21 @@
+{
+  "name": "replicator",
+  "config":{ 
+	  "connector.class": "io.confluent.connect.replicator.ReplicatorSourceConnector",
+	  "key.converter": "io.confluent.connect.replicator.util.ByteArrayConverter",
+	  "value.converter": "io.confluent.connect.replicator.util.ByteArrayConverter",
+	  "topic.whitelist": "test-topic",
+	  "src.kafka.bootstrap.servers": "kafka:29092",
+	  "src.kafka.ssl.keystore.location":"/etc/kafka/secrets/kafka.broker1.keystore.jks",
+	  "src.kafka.ssl.endpoint.identification.algorithm":" ",
+	  "src.kafka.ssl.keystore.password":"confluent",	 
+	  "src.kafka.ssl.truststore.location":"/etc/kafka/secrets/kafka.broker1.truststore.jks",
+	  "src.kafka.ssl.truststore.password":"confluent",
+	  "dest.kafka.ssl.keystore.location":"/etc/kafka/secrets/kafka.broker1.keystore.jks",
+	  "dest.kafka.ssl.endpoint.identification.algorithm":" ",
+	  "dest.kafka.ssl.keystore.password":"confluent",	 
+	  "dest.kafka.ssl.truststore.location":"/etc/kafka/secrets/kafka.broker1.truststore.jks",
+	  "dest.kafka.ssl.truststore.password":"confluent",
+	  "dest.kafka.bootstrap.servers": "kafka_dc2:39092"
+	}
+}

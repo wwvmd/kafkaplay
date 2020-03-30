@@ -1,0 +1,38 @@
+##Markdown
+
+
+'curl http://localhost:8083/connectors'
+
+$CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+$CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --topic test-topic
+$CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+$CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+$CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+$CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+$CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+curl -X DELETE http://localhost:8083/connectors/replicator
+curl http://localhost:8083/connectors
+$CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:9092 --topic test-topic
+$CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+$CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+$CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+$CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:19092 --topic test-topic
+$CONFLUENT_HOME/bin/kafka-topics --delete --bootstrap-server localhost:19092 --topic _confluent-command
+curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator.json http://localhost:8083/connectors
+$CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+$CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+$CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+curl http://localhost:8083/connectors
+curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+$CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+curl http://localhost:8083/connectors
+$CONFLUENT_HOME/bin/kafka-topics --create --bootstrap-server localhost:9092 --topic test-topic --partitions 1 --replication-factor 1
+curl http://localhost:8083/connectors
+curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+$CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:19092
+$CONFLUENT_HOME/bin/kafka-topics --list --bootstrap-server localhost:9092
+curl -X POST -H "Content-Type: application/json" --data @/c/dev/projects/kafkaplay/connect-5.3-improvements/connectConfigs/replicator_DC2.json http://localhost:8083/connectors
+
